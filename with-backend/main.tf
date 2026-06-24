@@ -5,9 +5,6 @@ terraform {
       version = "~> 6.0"
     }
   }
-}
-
-terraform {
   backend "s3" {
     bucket = "tf-state-sample-9123"
     key    = "sample.tfstate"
